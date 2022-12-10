@@ -98,18 +98,7 @@ License - nucleoapp.com/license/
   spinning icons
 -------------------------*/
 .ni.spin {
-  -webkit-animation: nc-spin 2s infinite linear;
   animation: nc-spin 2s infinite linear;
-}
-
-@-webkit-keyframes nc-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
 }
 
 @keyframes nc-spin {
@@ -808,15 +797,9 @@ License - nucleoapp.com/license/
 .rdtPrev span,
 .rdtNext span {
   display: block;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Chrome/Safari/Opera */
-  /* Konqueror */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */ /* Konqueror */
+  -moz-user-select: none; /* Firefox */ /* Internet Explorer/Edge */
   user-select: none;
 }
 
@@ -909,15 +892,9 @@ td.rdtYear:hover {
   border-radius: 50%;
   color: #adb5bd;
   transition: all 60ms ease-in;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Chrome/Safari/Opera */
-  /* Konqueror */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */ /* Konqueror */
+  -moz-user-select: none; /* Firefox */ /* Internet Explorer/Edge */
   user-select: none;
 }
 

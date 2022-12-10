@@ -62,24 +62,6 @@ export default function HomeLayout({ auth, children }) {
 
                     {children}
 
-                    <section id="contact" className="dtr-section dtr-section-with-bg dtr-py-100" style={{ backgroundImage: 'url(assets/images/bg-img.jpg)' }}>
-                        <div className="container">
-                            {/*== row starts ==*/}
-                            <div className="row">
-                                <div className="col-12 text-center">
-                                    <h2 className="color-white">Need More Information<br />
-                                        From Inertia layout</h2>
-                                    <p className="color-white-muted">There has NEVER been a better time to start a business from
-                                        home than right now!.<br />
-                                        No franchise fees, or warehouses, no large purchases of inventory, no special equipment,
-                                        and no experience needed.<br />
-                                        $20 (plus shipping) could change your life. Earn the income that you deserve. Work the
-                                        hours that you want.</p>
-                                </div>
-                            </div>
-                            {/*== row ends ==*/}
-                        </div>
-                    </section>
                 </div>
             </div>
         </>

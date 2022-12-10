@@ -12,9 +12,7 @@ const componentStyles = (theme) => ({
     transition: "all .15s ease",
     opacity: ".9",
     background:
-      "linear-gradient(87deg," +
-      theme.palette.dark.main +
-      ",#1a174d)!important",
+    "linear-gradient(87deg," + "#c28813" + ",black)",
   },
   containerRoot: {
     zIndex: 1,
@@ -30,10 +28,10 @@ const componentStyles = (theme) => ({
     lineHeight: 1.5,
   },
   buttonRoot: {
-    color: theme.palette.white.main,
-    backgroundColor: theme.palette.info.main,
+    color: 'white',
+    backgroundColor: 'black',
     "&:hover": {
-      backgroundColor: theme.palette.info.dark,
+      backgroundColor: 'black',
     },
   },
 });

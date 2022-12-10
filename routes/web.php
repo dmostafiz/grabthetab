@@ -221,6 +221,7 @@ require __DIR__.'/auth.php';
 Route::get('/{uname?}', function (Request $request) {
     
     $username = \Request::segment(1);
+    
     if(isset($username) && $username != 'master'){
       $sponsor_id = 0;
       $sponsor = User::where('username', $username)->first();
@@ -229,13 +230,16 @@ Route::get('/{uname?}', function (Request $request) {
       }
       return view('index', compact(['sponsor_id', 'username']));
     }
-    if(isset($username) && $username == 'master'){
-        return view('index');
-    }
+    // if(isset($username) && $username == 'master'){
+    //     return view('index');
+    // }
     
-    if(!isset($username)){
-        return view('underconstruction');
-    }
+    // if(!isset($username)){
+    //     return view('underconstruction');
+    // }
+
+    return view('index');
+
     
     // $admin = User::where('user_type')
     //if(!$request->uname){

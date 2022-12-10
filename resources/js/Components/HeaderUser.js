@@ -47,7 +47,7 @@ const HeaderUser = () => {
                   subtitle="My Contacts"
                   title={myTotalLeads}
                   icon={InsertChartOutlined}
-                  color="bgError"
+                  color="bgWarningLight"
                 />
               </Grid>
               {/* <Grid item xl={3} lg={6} xs={12}>
@@ -71,7 +71,7 @@ const HeaderUser = () => {
                   subtitle="Announcements"
                   title={myAnnouncementsCount}
                   icon={CampaignIcon}
-                  color="bgInfo"
+                  color="bgWarningLight"
                 />
               </Grid>
             </Grid>

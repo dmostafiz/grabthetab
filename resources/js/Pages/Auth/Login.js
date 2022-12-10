@@ -88,10 +88,10 @@ export default function Login({ status, canResetPassword }) {
                                        
                                         </div>
                                         <div className="flex items-center justify-between">
-                                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded focus:outline-none focus:shadow-outline text-sm" type="submit">
+                                            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-3 rounded focus:outline-none focus:shadow-outline text-sm" type="submit">
                                                 Sign In
                                             </button>
-                                            <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" target="_blank" href="https://xceleratefueltabs.com/password/reset">
+                                            <a className="inline-block align-baseline font-bold text-sm text-yellow-500 hover:text-blue-800" target="_blank" href="https://xceleratefueltabs.com/password/reset">
                                                 Forgot Password?
                                             </a>
                                         </div>
